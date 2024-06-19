@@ -10,7 +10,8 @@ public class A05_constantes {
 
         final double TAXA_ANUAL_DE_FINANCIAMENTO = scan.nextDouble();
 
-        final double PI = 3.14;
+        //minha mudança. 
+        final double PI = 3;
 
         scan.close();
 

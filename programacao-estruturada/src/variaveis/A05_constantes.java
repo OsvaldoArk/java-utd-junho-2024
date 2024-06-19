@@ -10,7 +10,8 @@ public class A05_constantes {
 
         final double TAXA_ANUAL_DE_FINANCIAMENTO = scan.nextDouble();
 
-        final double PI = 3.14;
+        //mudança do colega ( o pivô do conflito )
+        final double PI = 9.1;
 
         scan.close();
 

@@ -26,5 +26,7 @@ public class A05_constantes {
        System.out.println(AVOGRADO);
 
        System.out.println(GRAVIDADE_NA_TERRA);
+
+       System.out.println("criando uma diferença entre as duas branches");
     }
 }

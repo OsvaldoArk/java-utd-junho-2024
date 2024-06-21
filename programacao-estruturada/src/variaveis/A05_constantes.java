@@ -22,5 +22,9 @@ public class A05_constantes {
        System.out.println(TAXA_ANUAL_DE_FINANCIAMENTO);
 
        System.out.println(PI);
+
+       System.out.println(AVOGRADO);
+
+       System.out.println(GRAVIDADE_NA_TERRA);
     }
 }

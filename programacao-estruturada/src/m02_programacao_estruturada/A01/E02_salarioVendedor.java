@@ -24,5 +24,7 @@ public class E02_salarioVendedor {
         System.out.printf("\nsalário fixo: %.2f",salarioFixo);
         System.out.printf("\ntotal de vendas: %.2f",totalDeVendasEfetuadas);
         System.out.printf("\nsalário final: %.2f\n",salarioFinal);
+        
+        leitor.close();
     }
 }

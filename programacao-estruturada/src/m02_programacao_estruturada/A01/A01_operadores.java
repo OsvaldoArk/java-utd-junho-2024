@@ -4,7 +4,7 @@ public class A01_operadores {
     
     public static void main(String[] args) {
         //exemplo de operador de atribuíção.
-        String nome = "Osvaldo";
+        //String nome = "Osvaldo";
 
         int idade = 37;
 
@@ -22,9 +22,9 @@ public class A01_operadores {
 
         //Operadores relacionais: > < >= <= == !=
         int idadeOsvaldo = 37;
-        double idadePrecisa = 36.6;
+        //double idadePrecisa = 36.6;
         long idadeLong = 38L;
-        int idadeCarlos = 26;
+        //int idadeCarlos = 26;
 
         System.out.println(idadeOsvaldo > idadeLong);
         //System.out.println(nome.equalsIgnoreCase("osvaldo"));
@@ -46,7 +46,7 @@ public class A01_operadores {
         //System.out.println(true^true);
 
         //operador ternário: se(condição)?"verdadeiro":"falso
-
+        
         
     }
 }

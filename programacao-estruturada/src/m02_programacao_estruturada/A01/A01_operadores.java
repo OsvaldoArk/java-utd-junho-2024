@@ -29,7 +29,7 @@ public class A01_operadores {
         System.out.println(idadeOsvaldo > idadeLong);
         //System.out.println(nome.equalsIgnoreCase("osvaldo"));
 
-        //Operador lógico && & || |
+        //Operador lógico && & || | ^
         //System.out.println(false&false);
         //System.out.println(false&&true);
         //System.out.println(true&&false);

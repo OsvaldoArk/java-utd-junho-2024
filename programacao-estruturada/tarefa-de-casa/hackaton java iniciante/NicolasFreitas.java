@@ -18,6 +18,7 @@ public class NicolasFreitas {
 
         for (int attempts = 10; attempts >= 0; attempts--) {
             if (attempts == 0) {
+                System.out.println("");
                 System.out.println("Game Over! You're out of attempts.");
 
                 break;

@@ -28,6 +28,7 @@ public class NicolasFreitas {
             int secretNumber = scan.nextInt();
 
             if (secretNumber == randomNumber) {
+                System.out.println("");
                 System.out.println("Congratulations! You've won the game.");
                 System.out.println("The secret number were: " + randomNumber);
 

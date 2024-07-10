@@ -23,10 +23,15 @@ public class Teste {
                 numeroOculto = metodos.gerarNumeroAleatorio();
                 acertos++;            
             }else{
-            System.out.println("você errou jogador mas não desanime você possui ainda "+(contador--)+" tentativas");
-                contador++;
-            }
-          
+                contador++
+                if (tentativas>numeroOculto){
+                    System.out.println("você errou jogador mas não desanime você possui ainda "+(contador--)+" tentativas");
+                    System.out.println("pssiu! uma dica, mas n conta pra ninguém.Teu número é maior que o secreto")
+                }else{
+                    System.out.println("você errou jogador mas não desanime você possui ainda "+(contador--)+" tentativas");
+                    System.out.println("pssiu! uma dica, mas n conta pra ninguém.Teu número é menor que o secreto");
+                }
+            }          
         }
         if (acertos>=1) {
             System.out.println("parabéns jovem. você acertou "+acertos+"vezes");            

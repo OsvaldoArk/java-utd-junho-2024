@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class nicolasteste {
+public class nicolasDesafio {
     public static void main(String[] args) {
         
         Scanner leitor = new Scanner(System.in);
@@ -10,7 +10,7 @@ public class nicolasteste {
 
         for(int cont = 0;cont <= 10;cont++){    
             if (cont > 9){
-                System.out.println("Nenhuma tentativa restante");
+                System.out.println("Nenhuma tentativa restante!");
                 break;
                 
             }

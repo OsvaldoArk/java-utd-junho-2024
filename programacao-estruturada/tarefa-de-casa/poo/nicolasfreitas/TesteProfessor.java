@@ -14,11 +14,11 @@ public class TesteProfessor {
 
         Disciplina historia = new Disciplina(1, "História", "Conhecendo o passado para entender o futuro\n");
         Disciplina filosofia = new Disciplina(2, "Filosofia", "Módulo acerca dos filósofos gregos\n");
-        Disciplina geografia = new Disciplina(3, "Biologia", "Estudos em genética\n");
+        Disciplina biologia = new Disciplina(3, "Biologia", "Estudos em genética\n");
 
         professor01.addDisciplina(historia);
         professor01.addDisciplina(filosofia);
-        professor01.addDisciplina(geografia);
+        professor01.addDisciplina(biologia);
 
         System.out.println(professor01);
         System.out.println("");

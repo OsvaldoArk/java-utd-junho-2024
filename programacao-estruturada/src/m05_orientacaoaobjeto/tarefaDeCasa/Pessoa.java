@@ -1,17 +1,23 @@
-package m05_orientacaoaobjeto;
+package m05_orientacaoaobjeto.tarefaDeCasa;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
+import m05_orientacaoaobjeto.tarefaDeCasa.enums.StatusEnum;
+
 public abstract class Pessoa {
     
+    private static Integer populacao = 0;
     private Long id;
     private String nome;
     private LocalDate dataNascimento;
+    private StatusEnum status;
     private Boolean ativo;
 
     {
         this.ativo = true;
+        status = StatusEnum.ATIVO;
+        populacao++;
     }
 
     public Pessoa(){}
@@ -50,6 +56,22 @@ public abstract class Pessoa {
 
     public void setAtivo(Boolean ativo){
         this.ativo = ativo;
+    }
+
+    public static void imprimePopulacao(){
+        System.out.println(populacao);
+    }
+
+    public static void aumentaPopulacao(){
+        populacao++;
+    }
+
+    public String getStatus(){
+        return status.getDescricao();
+    }
+
+    public void setStatus(StatusEnum status){
+        this.status = status;
     }
 
     public abstract String toString();

@@ -1,4 +1,4 @@
-package m05_orientacaoaobjeto;
+package m05_orientacaoaobjeto.tarefaDeCasa;
 
 import java.time.LocalDate;
 

@@ -3,7 +3,7 @@ import java.math.RoundingMode;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class Funcionario extends Pessoa implements Discontos {
+public class Funcionario extends Pessoa implements Descontos {
     private BigDecimal salario;
     private String cargo;
     private LocalDate dataAdmissao;

@@ -1,7 +1,5 @@
 {
     "java.project.sourcePaths": [
-        "programacao-estruturada/tarefa-de-casa/orientacao_a_objeto/NicolasFreitas/Classes",
-        "programacao-estruturada/tarefa-de-casa/orientacao a objeto/nicolas freitas/test",
-        "programacao-estruturada/tarefa-de-casa/poo/nicolasfreitas"
+        "programacao-estruturada/src/m07_streams"
     ]
 }
